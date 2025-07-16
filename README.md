@@ -1,9 +1,49 @@
-# Stock Profile Tracker
-<pre>
-A simple stock portfolio tracker built using Python and Yahoo Finance (yfinance) API. This program allows users to add, delete, and view stocks in their portfolio, with real-time stock data displayed for each symbol.
+# 📈 Stock Portfolio Tracker (CLI) — Python + yFinance
 
-<h2>Features</h2>
-Add stock: Add a stock to your portfolio with a specified amount.
-Delete stock: Remove a stock from your portfolio.
-View stock profile: Display your stock portfolio with real-time closing prices.
-</pre>
+A command-line based mini project to help you simulate a basic stock portfolio with real-time prices using the `yfinance` library.
+
+---
+
+## 🧩 Features
+
+- Add stock with investment amount
+- Delete a stock from portfolio
+- View real-time stock value (using last closing price)
+- Validations and error handling included
+
+---
+
+## 📁 Structure
+
+```bash 
+StockPortfolio/
+├── main.py # Menu interface
+├── portfolio.py # Core logic for stock management
+├── README.md # Project guide
+```
+
+---
+
+## 🚀 Getting Started
+
+### Install required package
+
+```bash
+pip install yfinance
+```
+
+### Run the app
+
+```bash
+python main.py
+```
+
+>💡 Note
+>Make sure your internet connection is active (for live price fetch)
+>Use valid stock symbols (e.g., AAPL, MSFT, TSLA)
+
+---
+
+### 👩‍💻 Made by
+Laiba Muzammal
+Backend & Python Developer
